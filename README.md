@@ -14,7 +14,10 @@ echo "mongodb-org-tools hold" | sudo dpkg --set-selections
 
 sudo systemctl start mongod
 
+sudo apt-get install php7.4-mongodb
+
 ```
+
 <a href="https://imgur.com/iYdSKIb"><img src="https://i.imgur.com/iYdSKIb.png" title="source: imgur.com" /></a><br/><br/>
 ```
 sudo mkdir /var/lib/mongodb
